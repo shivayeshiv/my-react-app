@@ -168,7 +168,8 @@
 
 
 .card-fluid{
-    background-color: aliceblue;
+    height: 100%;
+    background-color: rgb(50, 86, 117);
     padding: 50px;
 }
 .card-fluid .row{
@@ -177,37 +178,39 @@
     transition: 0.7s;
 }  
 
-.card-fluid .row :hover{
-    
-    transition: 0.7s;
-}
 
 
 
-.card-fluid .col-md-3 img{
+.card-fluid .col-md-6 img{
     justify-content: center;
-    height:430px;
+    height:400px;
     width:350px;
     border-radius: 5%;
     transition: 0.5s;
+    
+    
+    
 }
-.card-fluid .col-md-3 img:hover{
-    margin-top: 50px;
+
+.card-fluid .col-md-6 img:hover{
+    
     filter: drop-shadow(40px 40px 30px black);
 }
-.card-fluid .col-md-3{
+.card-fluid .col-md-6{
     justify-content: center;
     height:550px;
     width:370px;
     border-radius: 5%;
+    
 }
-.card-fluid .col-md-3 .card-title{
+
+.card-fluid .col-md-6 .card-title{
    margin-top: 20px;
    font-weight: 500;
    color: #113D83;
    font-size: 1.3rem;
 }
-.card-fluid .col-md-3 .card-title .card-text{
+.card-fluid .col-md-6 .card-title .card-text{
    margin-top: 20px;
    font-weight: 500;
    color: #113D83;
@@ -216,7 +219,6 @@
 
 
 .card-fluid .btn{
-  position: relative    ;
     top: 20px;
     left: 30px;
 }
