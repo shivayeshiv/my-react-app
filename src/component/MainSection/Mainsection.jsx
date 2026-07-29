@@ -17,7 +17,7 @@ const Mainsection = () => {
           <div className="col-md-4">
             <img src={logo} alt="" />
           </div>
-          <div className="col-md-4  ">
+          <div className="col-md-4 " href="#abouting">
             <h2>SARA-PLAST</h2>
           </div>
           <div className="col-md-4" id="menu">

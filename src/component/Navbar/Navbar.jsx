@@ -15,7 +15,7 @@ function Navbar() {
           <div className="col-md-8 d-flex">
             <div className="row">
               <div className='d-flex'>
-            <a href="">Contact</a>
+            <a href="#abouting">Contact</a>
             <a href="">Career</a>
             <a href="">FAQs</a>
             </div>

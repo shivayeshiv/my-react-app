@@ -157,7 +157,11 @@
 }
 #Aboutus .cont{
     
-    color: #2ba119;
+  padding: 0px 20px;
+}
+#Aboutus .content1{
+   text-align: center;
+  color: yellow ;
 }
 #Aboutus .cont p{
     margin-top: 120px;
@@ -184,7 +188,7 @@
 
 .card-fluid .col-md-6 img{
     justify-content: center;
-    height:400px;
+    height:370px;
     width:350px;
     border-radius: 5%;
     transition: 0.5s;
