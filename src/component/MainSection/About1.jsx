@@ -1,6 +1,6 @@
 import React from 'react'
 import img1 from "../../assets/images/4.png"
-const About = () => {
+const About1 = () => {
   return (
     <div>
         <div className="img-fluid" id='abouting'>
@@ -24,4 +24,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About1
