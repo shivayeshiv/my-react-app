@@ -14,13 +14,13 @@ const Mainsection = () => {
     <div>
        <div className="cont-fluid">
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-md-4">
             <img src={logo} alt="" />
           </div>
-          <div className="col-md-8  ">
+          <div className="col-md-4  ">
             <h2>SARA-PLAST</h2>
           </div>
-          <div className="col-md-2" id="menu">
+          <div className="col-md-4" id="menu">
             <button
               className="btn btn-primary"
               type="button"

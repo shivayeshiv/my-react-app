@@ -41,10 +41,12 @@
 
 
 .cont-fluid img{
+    display: flex;
+    margin-left: 10px;
     width: 130px;
     height: 80px;
 }
-.cont-fluid .col-md-8 h2{
+.cont-fluid .col-md-4 h2{
     color: #113D83;
     display: flex;
     text-align: center;
@@ -134,10 +136,9 @@
     filter: drop-shadow(-20px 20px 20px rgb(0, 0, 0));
 }   
 #Aboutus{
-    margin-left: 80px;
-    width: 900px;
-    padding: 10px 90px;
-     filter: drop-shadow(-20px 20px 20px rgb(64, 30, 158));
+    margin-left:0px;
+    width: 850px;
+    filter: drop-shadow(-20px 20px 20px rgb(64, 30, 158));
 }
 
 #Aboutus h1{
@@ -155,7 +156,7 @@
     background-color: #113D83;
 }
 #Aboutus .cont{
-    margin-top: 120px;
+    
     color: #2ba119;
 }
 #Aboutus .cont p{
