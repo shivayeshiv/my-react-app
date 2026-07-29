@@ -5,10 +5,10 @@ const About1 = () => {
     <div>
         <div className="img-fluid" id='abouting'>
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-6">
                 <img src={img1} alt="" />
                 </div>
-                <div className="col-md-8" id='Aboutus'>
+                <div className="col-md-6" id='Aboutus'>
                     <p className='content1'>India’s No. 1 Provider of Portable Sanitation and Hygiene Solutions</p>
                     <h1 className=''>Why choose us</h1>
                     <div className="cont">
