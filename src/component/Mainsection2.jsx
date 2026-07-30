@@ -72,6 +72,7 @@ const Mainsection2 = () => {
                     </div>
                 </div>
             </div>
+            <hr />
         </div>
     </div>
   )

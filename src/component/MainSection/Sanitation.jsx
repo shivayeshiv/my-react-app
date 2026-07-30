@@ -1,5 +1,7 @@
 import React from 'react'
-
+import logo1 from "../../assets/images/10.png"
+import logo2 from "../../assets/images/11.png"
+import logo3 from "../../assets/images/12.png"
 const Sanitation = () => {
   return (
     <div>
@@ -18,6 +20,28 @@ const Sanitation = () => {
                     </div>
                 </div>
             </div> 
+        </div>
+        <div className="row">
+            <div className="col-md-9" id='Kumar1'>
+                <div className="w col-md-3">
+                    <img src={logo1} alt="" />
+                    <h3>Morden Equipments</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aperiam provident quasi iure mollitia, aut vel voluptate enim tempore laboriosam esse culpa ducimus perferendis velit impedit aliquam recusandae ipsam placeat.</p>
+                    <button type="button">Explore<i class="bi bi-arrow-up-right"></i></button>
+                </div>
+                <div className="w col-md-3">
+                    <img src={logo2} alt="" />
+                    <h3>Automate Technology</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aperiam provident quasi iure mollitia, aut vel voluptate enim tempore laboriosam esse culpa ducimus perferendis velit impedit aliquam recusandae ipsam placeat.</p>
+                    <button type="button">Explore<i class="bi bi-arrow-up-right"></i></button>
+                </div>
+                <div className="w col-md-3">
+                    <img src={logo3} alt="" />
+                    <h3>Height Quility Product</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aperiam provident quasi iure mollitia, aut vel voluptate enim tempore laboriosam esse culpa ducimus perferendis velit impedit aliquam recusandae ipsam placeat.</p>
+                    <button type="button">Explore<i class="bi bi-arrow-up-right"></i></button>
+                </div>
+            </div>
         </div>
     </div>
   )

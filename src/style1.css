@@ -40,5 +40,53 @@
 
 .Sani-fluid:hover{
     background-position: bottom left ;
-    color: wheat;
+    color: rgb(251, 251, 251);
 }
+
+#Kumar1{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    padding: 0px 20px;
+}
+#Kumar1 .w{
+    background-color: blueviolet;
+    height: max-content;
+    padding: 10px 40px;
+    filter: drop-shadow(10px 10px 30px black);
+}
+#Kumar1 img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+#Kumar1 p{
+    margin-top: 20px;
+    color: #FFFFFF
+}
+#Kumar1 Button{
+    border: none;
+    background-color: transparent;
+    text-decoration:underline;
+    text-underline-offset: 6px;
+    font-size: 1.3rem;
+    transition: .4s;
+}
+
+#Kumar1 Button:hover{
+    color:#FF8C00;
+    font-size: 1.5rem;
+    transition: .4s;
+}
+#Kumar1 i{
+    height: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+

@@ -250,7 +250,6 @@
 .Mainsection2-fluid .b .col-md-6{
   background-color: aliceblue;
   padding: 20px;
-  position: relative;
   left: 650px;
 }
 .Mainsection2-fluid h1{
@@ -267,10 +266,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #8764ad;
+    background: linear-gradient(to top, blue 50%, transparent 50%);
+    background-size: 100% 200%;
+    background-position: right top;
+    transition: all 0.5s ease;
    
-
 }
+#Kumar:hover{
+    background-position: left bottom;
+    color: #f8f9f7;
+}
+
 #Kumar .para2{
     padding: 30px 30px;
     
