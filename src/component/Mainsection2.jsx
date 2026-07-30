@@ -5,7 +5,7 @@ const Mainsection2 = () => {
   return (
     <div>
         <hr />
-        <div className="Mainsection2-fluid">
+        <div className="Mainsection2-fluid " >
             <h1>Smart Sanitation for a <br /> Healthier Tomorrow</h1>
             <div className="row">
                 <div className="col-md-12">
@@ -21,6 +21,7 @@ const Mainsection2 = () => {
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, culpa.
                                     </p>
+                                    <hr />
                                 </div>
                                 </div>
                                 <div className="flexx d-flex ms-4">
@@ -31,6 +32,7 @@ const Mainsection2 = () => {
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, culpa.
                                     </p>
+                                    <hr />
                                 </div>
                                 </div>
                                 <div className="flexx d-flex ms-4">
@@ -41,6 +43,7 @@ const Mainsection2 = () => {
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, culpa.
                                     </p>
+                                    <hr />
                                 </div>
                                 </div>
                                 <div className="flexx d-flex ms-4">
@@ -51,6 +54,7 @@ const Mainsection2 = () => {
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, culpa.
                                     </p>
+                                    <hr />
                                 </div>
                                 
                                 </div>
@@ -69,7 +73,6 @@ const Mainsection2 = () => {
                 </div>
             </div>
         </div>
-        <hr />
     </div>
   )
 }

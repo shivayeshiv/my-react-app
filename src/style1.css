@@ -1,0 +1,44 @@
+
+.Sani-fluid .col-md-6{
+    display: flex;
+    justify-content: center;
+        flex-direction: column;
+     padding: 120px 8%;
+    
+}
+.Sani-fluid .col-md-6 .para0{
+   color: yellow;
+   font-size: 1.1rem;
+    
+}
+
+.Sani-fluid .col-md-6 h2{
+    font-weight: 700;
+    padding-right: 20px;
+    font-weight: 900;
+}
+
+.Sani-fluid .col-md-6 .para1{
+    font-weight: 600;
+    text-align: justify;
+    padding: 0%;
+}
+
+.Sani-fluid .col-md-6 .para2{
+    margin-top: 20px; 
+    padding: 0;
+    text-align: justify;
+}
+.Sani-fluid {
+    padding: 12px 30px;
+    color: blue;
+    background: linear-gradient(to right, blue 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.4s ease;
+}
+
+.Sani-fluid:hover{
+    background-position: bottom left ;
+    color: wheat;
+}

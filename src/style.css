@@ -240,7 +240,7 @@
     width: 100%;
 }
 .Mainsection2-fluid .col-md-12{
-    height: 40vh;
+    height: max-content;
     width: 100%;
 }
 .Mainsection2-fluid .col-md-12 .bi{
@@ -251,7 +251,6 @@
   background-color: aliceblue;
   padding: 20px;
   position: relative;
-  top: px;
   left: 650px;
 }
 .Mainsection2-fluid h1{
@@ -269,6 +268,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: #8764ad;
+   
 
 }
 #Kumar .para2{
