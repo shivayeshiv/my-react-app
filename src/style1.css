@@ -52,11 +52,19 @@
     height: 600px;
     padding: 0px 20px;
 }
+
 #Kumar1 .w{
     background-color: blueviolet;
     height: max-content;
     padding: 10px 40px;
     filter: drop-shadow(10px 10px 30px black);
+    transition: 0.5s;
+
+}
+#Kumar1 .w:hover{
+   
+    background-color: #7F6d71;
+    color: #50E3c2;
 }
 #Kumar1 img{
     height: 200px;
@@ -149,7 +157,6 @@
 .imge .col-md-4 .cover{
    position: absolute;
     top: 50px;
-    left: 80px;
     width: 150px;
     background-color: #000000;
 }
