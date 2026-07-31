@@ -313,3 +313,57 @@ height: 550px;
 }
 
 
+
+#Shiv{
+    background-color: #000000;
+    padding: 40px 40px;
+        
+}
+#Shiv form{
+    width: 85%;
+    border: #FFFFFF 10px solid;
+    height: 600px;
+    border-radius: 50px;
+}
+#Shiv form:hover{
+    filter: drop-shadow(
+          10px 10px 10px #92d28f
+    
+    );
+   
+}
+#Shiv input{
+    padding: 0px 15px;
+    height: 3rem;
+    margin: 20px 20px;
+    border:  none;
+    border-color: #020202;
+    text-decoration: none;
+    font-size: 1.3em;
+    border-radius: 50px;
+    font-weight: 600;
+
+}
+#Shiv .hl{
+    margin-top: 40px;
+}
+
+#Shiv .Hlo{
+    width: 90%;
+}
+#Shiv button{
+    height: 3rem;
+    width: 120px;
+    border-radius: 50px;
+    display: block;
+    margin: 30px auto;   
+}
+#Shiv img{
+    height: 600px;
+}
+#Shiv img:hover{
+    filter: drop-shadow(-20px -20px 15px #FFFFFF);
+}
+#Shiv h1{
+    color: #E8F5E9;
+}
