@@ -335,6 +335,7 @@ height: 550px;
 #Shiv input{
     padding: 0px 15px;
     height: 3rem;
+    width: auto;
     margin: 20px 20px;
     border:  none;
     border-color: #020202;
@@ -359,7 +360,7 @@ height: 550px;
     margin: 30px auto;   
 }
 #Shiv img{
-    height: max-content;
+    height: 600px;
 }
 #Shiv img:hover{
     filter: drop-shadow(-20px -20px 15px #FFFFFF);
