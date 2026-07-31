@@ -143,7 +143,6 @@
 .Our-fluid .col-md-4 img{
  height: max-content;
  width: 540px;
-  position: absolute;
     transition: 0.5s;
 
 }
@@ -264,18 +263,18 @@ height: 550px;
 .footer-fluid a{
     font-size: 1.5rem;
     color: green;
-    font-weight: 700;
-     margin-left: 20px;
+    
 
 }
 .footer-fluid i{
     font-size: 1.5rem;
     color: green;
-     font-weight: 700;
-     margin-left: 20px;
     
 }
-
+.footer-fluid a{
+    
+    
+}
 .footer-fluid i{
     font-weight: 700;
      margin-left: 20px;
