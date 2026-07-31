@@ -49,7 +49,7 @@ const OurService = () => {
 
             <div className="imge col-md-4">
                 <div className="cover img">
-                  <img src={cover} alt="" className='cover' />
+                  <img src={cover} alt="" />
 
 
                 </div>
