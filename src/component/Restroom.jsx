@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from "../assets/images/19.png"
+import img2 from "../assets/images/20.jpg"
 
 const Restroom = () => {
   return (
@@ -51,8 +52,8 @@ const Restroom = () => {
                         </div>
                     </div>
                 </div>
-                <div className="msg col-md-5 bg-light">
-                    <img src="https://in.pinterest.com/pin/969048044824983034/" alt="" />
+                <div className="msg1 col-md-5 bg-light">
+                    <img src={img2} alt="" />
                 </div>  
              </div>
         </div>

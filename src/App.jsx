@@ -7,6 +7,7 @@ import Mainsection2 from './component/Mainsection2.jsx'
 import Sanitation from './component/MainSection/Sanitation.jsx'
 import OurService from './component/OurService.jsx'
 import Restroom from './component/Restroom.jsx'
+import Footer from './component/footerSection/Footer.jsx'
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
         <Sanitation />
         <OurService />  
         <Restroom />
+        <Footer />
       </div>
   )
 }

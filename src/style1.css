@@ -200,7 +200,7 @@
     padding: 40px;
     font-weight: 900;
 }
-.massage img{
+.massage .head img{
     height: max-content;
     width: 100%;
     padding: 0;
@@ -239,4 +239,76 @@
     color: #1B5E20;
     font-size: 1.6rem;
     font-weight: 500;
+}
+
+.massage .msg1{
+    padding: 0%;
+}
+.massage .msg1 img{
+height: 550px;
+}
+.footer-fluid {
+   padding: 30px;
+   background-color: #020202;
+    color: #FFFFFF;
+
+}
+.footer-fluid img{
+    
+    height:600px    ;
+    width: 100%;
+     transform: scaleX(-1);
+    border-radius: 8px;
+}
+.footer-fluid a{
+    font-size: 1.5rem;
+    color: green;
+     margin-left: 20px;
+
+}
+.footer-fluid i{
+    font-size: 1.5rem;
+    color: green;
+    
+}
+.footer-fluid a{
+    font-weight: 700;
+     margin-left: 20px;
+    
+}
+.footer-fluid i{
+    font-weight: 700;
+     margin-left: 20px;
+    
+}
+.footer-fluid h2{
+    font-weight: 700;
+    margin-left: 20px;
+    
+}
+.iframee{
+    border-radius: 4px;
+    height: 400px;
+}
+.media-fluid{
+    background-color: cadetblue;
+     transition: 0.5s;
+
+}
+.media-fluid h2{
+    margin: 10px 20px;
+    justify-content: center;
+    transition: 0.5s;
+    
+
+}
+.media-fluid .hi{
+    display:block;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.media-fluid .hi :hover{
+    color: rgb(106, 242, 113);
+    transition: 0.5s;
+
 }
