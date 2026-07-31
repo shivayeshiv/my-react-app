@@ -164,8 +164,7 @@
      width: 100%;
     display: block;
 }
-.rest-fluid{
-}
+
 .rest-fluid .mn{
     background-color: rgb(3, 84, 3);
     color: #FFFFFF;
@@ -199,9 +198,6 @@
     margin-left: 50px;
 }
 
-.massage{
-
-}
 .massage h1{
     text-align: center;
     padding: 40px;
@@ -221,9 +217,7 @@
     margin: 20px;
     text-align: center;
 }
-.massage img:hover{
-   
-}
+
 
 .massage img{
     height: max-content;
@@ -270,19 +264,18 @@ height: 550px;
 .footer-fluid a{
     font-size: 1.5rem;
     color: green;
+    font-weight: 700;
      margin-left: 20px;
 
 }
 .footer-fluid i{
     font-size: 1.5rem;
     color: green;
-    
-}
-.footer-fluid a{
-    font-weight: 700;
+     font-weight: 700;
      margin-left: 20px;
     
 }
+
 .footer-fluid i{
     font-weight: 700;
      margin-left: 20px;
@@ -318,4 +311,15 @@ height: 550px;
     color: rgb(106, 242, 113);
     transition: 0.5s;
 
+}
+
+
+.request-fluid{
+    background-image: url(./assets/images/download\ \(6\).jpg);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    width: 100%;
 }

@@ -10,7 +10,7 @@ const OurService = () => {
   return (
     <div>
         <div className="Our-fluid">
-          <div className="first row">
+          <div className="row">
             <div className="card col-md-8">
               <div className="card1 row">
               <h1 className='text-center'>Our Services</h1>
