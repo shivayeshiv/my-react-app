@@ -6,7 +6,6 @@ const About1 = () => {
         <div className="img-fluid" id='abouting'>
             <div className="row">
                 <div className="col-md-4  ">
-                <img src={img1} alt="" href="#abouting"/>
                 </div>
                 <div className="col-md-8" id='Aboutus'>
                     <p className='content1'>India’s No. 1 Provider of Portable Sanitation and Hygiene Solutions</p>

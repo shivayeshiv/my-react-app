@@ -133,10 +133,14 @@
     object-fit: fill;
 }
 
+.img-fluid {
+    background-image: url(./assets/images/4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
-.img-fluid .col-md-4{
-    filter: drop-shadow(-20px 20px 20px rgb(0, 0, 0));
-}   
 #Aboutus{
     margin-left:0px;
     width: 850px;
@@ -148,14 +152,14 @@
    font-size: 4rem;
    font-weight: 800;
    text-align: center;
-   color: #113D83;
+   color: #f7f7f8;
 }
 .cont p{
     color: rgb(25, 131, 172);
     font-size: 1.1rem;
 }
 .img-fluid .col-md-8.cont p{
-    background-color: #113D83;
+    background-color: #fefefe;
 }
 #Aboutus .cont{
     
@@ -167,7 +171,7 @@
 }
 #Aboutus .cont p{
     margin-top: 120px;
-    color: #2ba119;
+    color: #fafbfa;
     font-size: 1.5rem;
     text-align: justify !important;
     font-weight: 600;

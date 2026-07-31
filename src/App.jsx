@@ -6,6 +6,7 @@ import Card1 from './component/MainSection/Card1.jsx'
 import Mainsection2 from './component/Mainsection2.jsx'
 import Sanitation from './component/MainSection/Sanitation.jsx'
 import OurService from './component/OurService.jsx'
+import Restroom from './component/Restroom.jsx'
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
         <Mainsection2 />
         <Sanitation />
         <OurService />  
+        <Restroom />
       </div>
   )
 }

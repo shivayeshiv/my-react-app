@@ -56,7 +56,8 @@ const OurService = () => {
             </div>
 
           </div>
-        </div> 
+        </div>
+        <hr /> 
     </div>
   )
 }
