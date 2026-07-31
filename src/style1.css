@@ -322,7 +322,7 @@ height: 550px;
 #Shiv form{
     width: 85%;
     border: #FFFFFF 10px solid;
-    height: max-content;
+    height: 600px;
     border-radius: 50px;
 }
 #Shiv form:hover{
@@ -335,7 +335,7 @@ height: 550px;
 #Shiv input{
     padding: 0px 15px;
     height: 3rem;
-    width: auto;
+    width: max-content;
     margin: 20px 20px;
     border:  none;
     border-color: #020202;
