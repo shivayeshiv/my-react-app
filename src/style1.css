@@ -44,7 +44,7 @@
 }
 
 #Kumar1{
-    background-color: bisque;
+    background-color: rgb(253, 253, 253);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,5 +88,76 @@
     font-size: 1rem;
     font-weight: bold;
 
+}   
+
+.Our-fluid{
+    filter: drop-shadow(10px 0px 15px rgb(0, 0, 0));
+    height: max-content;
+    position: relative;
+
 }
 
+.Our-fluid .card1 .col-md-6{
+    padding: 20px;
+    background-color: rgb(237, 238, 242);
+    height: 440px;
+    width: 400px;
+    border-radius: 3%;
+    position: relative;
+    margin-top: 40px;
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.15);
+    transition: 0.5s;
+   
+}
+.Our-fluid .card1 .col-md-6:hover{
+   box-shadow:
+    8px 8px 16px #d1d4d8,
+    -8px -8px 16px #000000;
+    
+    transition: 0.5s;
+ 
+}
+.Our-fluid .card1{
+   padding: 30px;
+   background-color: rgb(237, 238, 242);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Our-fluid .card1 img{
+  width: 250px;
+  height: 250px;
+  padding-right: 30px;
+  margin-top: 40px; 
+  display: block;
+  margin: 0 auto;
+}
+.Our-fluid .col-md-4 img{
+ height: max-content;
+ width: 540px;
+  position: absolute;
+    transition: 0.5s;
+
+}
+.Our-fluid .imge .original{
+    z-index: 1;
+}
+
+.Our-fluid .imge .cover{
+    z-index: -1;
+}
+
+
+
+
+.imge .col-md-4 .cover{
+   position: absolute;
+    top: 50px;
+    left: 80px;
+    width: 150px;
+    background-color: #000000;
+}
+.imge .col-md-4 .original{
+     width: 100%;
+    display: block;
+}
