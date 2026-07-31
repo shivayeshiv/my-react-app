@@ -21,7 +21,7 @@ const Sanitation = () => {
                 </div>
             </div> 
         </div>
-        <div className="row">
+        <div className="fluid">
             <div className="col-md-9" id='Kumar1'>
                 <div className="w col-md-3">
                     <img src={logo1} alt="" />
